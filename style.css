@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background: #f0f8ff;
+    background-image: url("./9555741.jpg");
+    background-size: cover;
+}
+ h1{
+    font-size: 40px;
+ }
+
+ .clickbtn{
+    padding: 20px 40px;
+    font-size: 35px;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius:15px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .clickbtn:disabled{
+    background-color: rgb(74, 106, 174);
+    cursor: not-allowed;
+}
+
+.info{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.startbtn{
+    padding: 20px 40px;
+    font-size: 40px;
+    background-color: rgb(234, 154, 222);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.againbtn{
+    animation-name: tet;
+    animation-duration: 15s;
+    animation-timing-function: step-end;
+    animation-fill-mode: forwards;
+}
+
+@keyframes tet{
+
+    0%{
+        opacity: 0;
+        animation-delay: 0;
+        transform: translateY(-30px);
+    }
+
+    50%{
+        opacity: 0.5;
+        animation-delay: 20;
+        transform: translateY(0)
+    }
+    100%{
+        opacity: 1;
+        animation-delay: 40;
+        transform: translateY(0)
+    }
+}
+
+.againbtn{
+    padding: 20px 40px;
+    font-size: 25px;
+    background-color: rgb(121, 121, 121);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.z1, .z2, .z3, .clickbtn, .startbtn{
+    animation-name: uh;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes uh{
+
+    0%{
+        opacity: 0;
+        animation-delay: 0;
+        transform: translateY(-30px);
+    }
+
+    
+    100%{
+        opacity: 1;
+        animation-delay: 0;
+        transform: translateY(0)
+    }
+}
+
+
