@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Кликер за 10 секунд</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js.js" defer></script>
+</head>
+<body>
+  <p class="z1">Кликни как можно больше за десять секунд</p>
+  <button onclick="PlayAgain()"; id="clickbtn" class="clickbtn" disabled>Кликни!</button>
+  <div class="info">
+    <p class="z2">Ocталось времени: <span id="time">10</span> секунд</p>
+    <p class="z3">Количество кликов: <span id="count">0</span></p>
+    </div>
+    
+  <button onclick="StartGame()"; class="startbtn">Начать игру</button>
+  <p><button  onclick="StartGame()"; class="againbtn">Сыграть снова</button></p>
+</body>
+</html>
